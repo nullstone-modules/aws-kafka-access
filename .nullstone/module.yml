@@ -1,0 +1,16 @@
+org_name: nullstone
+name: aws-kafka-access
+friendly_name: Kafka Access
+description: Configures an application with Kafka access
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+platform: kafka
+subplatform: '*'
+type: ""
+appCategories:
+    - container
+    - serverless
+    - server
+is_public: true
